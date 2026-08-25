@@ -1,4 +1,4 @@
-﻿namespace Modular.Monolith.SharedKernel.Domain.Enums
+namespace Modular.Monolith.SharedKernel.Domain.Enums
 {
     internal class ActionType
     {
