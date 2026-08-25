@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Application\Exceptions\" />
+    <Folder Include="Application\Pagination\Cursor\" />
+    <Folder Include="Application\Pagination\Offset\" />
+    <Folder Include="Infrastructure\" />
+  </ItemGroup>
+
+</Project>

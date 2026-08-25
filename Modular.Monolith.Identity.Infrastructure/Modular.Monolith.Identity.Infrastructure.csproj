@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Persistence\Migrations\" />
+    <Folder Include="Persistence\Seed\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Modular.Monolith.Identity.Application\Modular.Monolith.Identity.Application.csproj" />
+  </ItemGroup>
+
+</Project>
