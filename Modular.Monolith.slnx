@@ -4,13 +4,23 @@
     <Project Path="src/Host/Modular.Monolith.API/Modular.Monolith.API.csproj" />
   </Folder>
   <Folder Name="/src/Modules/" />
-  <Folder Name="/src/Modules/FiscalManagement/" />
+  <Folder Name="/src/Modules/FiscalManagement/">
+    <Project Path="src/Modules/FiscalManagement/Modular.Monolith.FiscalManagement.Application/Modular.Monolith.FiscalManagement.Application.csproj" />
+    <Project Path="src/Modules/FiscalManagement/Modular.Monolith.FiscalManagement.Domain/Modular.Monolith.FiscalManagement.Domain.csproj" />
+    <Project Path="src/Modules/FiscalManagement/Modular.Monolith.FiscalManagement.Infrastructure/Modular.Monolith.FiscalManagement.Infrastructure.csproj" />
+    <Project Path="src/Modules/FiscalManagement/Modular.Monolith.FiscalManagement.Presentation/Modular.Monolith.FiscalManagement.Presentation.csproj" />
+  </Folder>
   <Folder Name="/src/Modules/Identity/">
     <Project Path="src/Modules/Identity/Modular.Monolith.Identity.Application/Modular.Monolith.Identity.Application.csproj" />
     <Project Path="src/Modules/Identity/Modular.Monolith.Identity.Domain/Modular.Monolith.Identity.Domain.csproj" />
     <Project Path="src/Modules/Identity/Modular.Monolith.Identity.Infrastructure/Modular.Monolith.Identity.Infrastructure.csproj" />
   </Folder>
-  <Folder Name="/src/Modules/Notifications/" />
+  <Folder Name="/src/Modules/Notifications/">
+    <Project Path="src/Modules/Notifications/Modular.Monolith.Notifications.Application/Modular.Monolith.Notifications.Application.csproj" />
+    <Project Path="src/Modules/Notifications/Modular.Monolith.Notifications.Domain/Modular.Monolith.Notifications.Domain.csproj" />
+    <Project Path="src/Modules/Notifications/Modular.Monolith.Notifications.Infrastructure/Modular.Monolith.Notifications.Infrastructure.csproj" />
+    <Project Path="src/Modules/Notifications/Modular.Monolith.Notifications.Presentation/Modular.Monolith.Notifications.Presentation.csproj" />
+  </Folder>
   <Folder Name="/src/SharedKernel/">
     <Project Path="src/SharedKernel/Modular.Monolith.SharedKernel/Modular.Monolith.SharedKernel.csproj" />
   </Folder>
